@@ -6,7 +6,7 @@ import Chip from "../components/chip.astro";
 const links = [
   {
     desc: "My Notes", 
-    link: "https://notes.byteflows.me", // 跳转地址：你的 Memos
+    link: "https://notes.byteflows.me", 
     icon: "fa-solid fa-book",
   },
   {
@@ -20,7 +20,7 @@ const links = [
 <html lang='en'>
   <head>
     <meta charset='utf-8' />
-    <link rel='icon' type='image/x-icon' href='/favicon.png' />
+    <link rel='icon' type='image/x-icon' href='/favicon.jpg' />
     <meta name='viewport' content='width=device-width' />
     
     <link
@@ -37,12 +37,12 @@ const links = [
     <meta name='author' content='ByteFlow' />
     
     <meta property='og:title' content='ByteFlow' />
-    <meta property='og:image' content='/favicon.png' />
+    <meta property='og:image' content='/favicon.jpg' />
     <meta property='og:description' content='Personal Hub of ByteFlow' />
     
     <meta property='twitter:description' content='Personal Hub of ByteFlow' />
     <meta property='twitter:title' content='ByteFlow' />
-    <meta property='twitter:image' content='/favicon.png' />
+    <meta property='twitter:image' content='/favicon.jpg' />
     <meta name='twitter:card' content='summary' />
     
     <title>ByteFlow's Space</title>
@@ -73,13 +73,11 @@ const links = [
         <Chip 
             link='https://github.com/ByteFlowing1337' 
             icon='fa-brands fa-github' 
-            label='GitHub'
         />
         
         <Chip 
             link='https://space.bilibili.com/1998380222' 
             icon='fa-brands fa-bilibili' 
-            label='Bilibili'
         />
       </div>
       
